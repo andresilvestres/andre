@@ -26,12 +26,12 @@ func (fnandreLeft) Eval(params ...interface{}) (interface{}, error) {
 
 	//andre Left
 	//fmt.Println("'%4dkm'", params)
-	//fmt.Printf("'%4dkm'", params)
-	//return params, fmt.Errorf("andreleft")
+	fmt.Printf("'%4dkm'", params)
+	return params, fmt.Errorf("andreleft")
 
-	if params == nil {
+	//if params == nil {
 		//Do nothing
-		return 0, nil
-	}
-	return "...ERROR...", fmt.Errorf("fnandreLeft function must have three arguments")
+		//return 0, nil
+	//}
+	//return "...ERROR...", fmt.Errorf("fnandreLeft function must have three arguments")
 }
