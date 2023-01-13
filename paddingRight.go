@@ -1,4 +1,4 @@
-package string
+package andre
 
 import (
 	"fmt"
