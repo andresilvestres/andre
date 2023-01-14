@@ -71,6 +71,20 @@
       "return": {
         "type": "string"
       }
+    },
+	{
+      "name": "random",
+      "description": "generate a random number",
+      "example": "number.random(100) => 90",
+      "args": [
+        {
+          "name": "limit",
+          "type": "int"
+        }
+      ],
+      "return": {
+        "type": "int"
+      }
     }
   ]
 }
